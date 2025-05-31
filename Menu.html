@@ -1,0 +1,203 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Menú TAVOLA</title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+      font-size: 28px;
+      letter-spacing: 1px;
+    }
+    .section {
+      padding: 30px 60px;
+    }
+    .section h2 {
+      margin-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+      color: #333;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+      gap: 20px;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      padding: 15px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: 130px;
+      object-fit: cover;
+      border-radius: 4px;
+    }
+    .product-name {
+      font-weight: bold;
+      margin: 10px 0 5px;
+    }
+    .price {
+      color: #555;
+      margin-bottom: 10px;
+    }
+    .product button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .product button:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
+<body>
+
+<header>TAVOLA - Menú</header>
+
+<div class="section">
+  <h2>Cereales</h2>
+  <div class="products">
+    <div class="product">
+      <img src="./Imagenes/Granola.png" alt="Granola">
+      <div class="product-name">Granola Mixta</div>
+      <div class="price">$6.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Hojuelas.png" alt="Hojuelas">
+      <div class="product-name">Hojuelas"></div>
+      <div class="price">$5.500</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Avena.png" alt="Avena">
+      <div class="product-name">Avena en hojuelas</div>
+      <div class="price">$4.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Cereal_chocolate.png" alt="Choco Cereal">
+      <div class="product-name">Cereal de Chocolate</div>
+      <div class="price">$5.200</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Fritos</h2>
+  <div class="products">
+    <div class="product">
+      <img src="./Imagenes/Empanada.png" alt="Empanada">
+      <div class="product-name">Empanada de carne</div>
+      <div class="price">$3.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/nugets.png" alt="nugget">
+      <div class="product-name">Nuggets</div>
+      <div class="price">$2.500</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Palito_queso.png" alt="Palito de Queso">
+      <div class="product-name">Palito de Queso</div>
+      <div class="price">$2.500</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Churro.png" alt="Churro">
+      <div class="product-name">Churro</div>
+      <div class="price">$4.500</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Empanada_mixta.png" alt="Empanada con queso">
+      <div class="product-name">Empanada con queso</div>
+      <div class="price">$3.800</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Bebidas</h2>
+  <div class="products">
+    <div class="product">
+      <img src="./Imagenes/Cafe.png" alt="Café">
+      <div class="product-name">Café</div>
+      <div class="price">$4.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Jugo_naranja.png" alt="Jugo Naranja">
+      <div class="product-name">Jugo de naranja</div>
+      <div class="price">$4.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Malteada.png" alt="Malteada">
+      <div class="product-name">Malteada de chocolate</div>
+      <div class="price">$6.500</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Gaseosa.png" alt="Gaseosa">
+      <div class="product-name">Gaseosa</div>
+      <div class="price">$3.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Jugo_natural.png" alt="Jugo natural">
+      <div class="product-name">Jugos naturales</div>
+      <div class="price">$5.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Ensaladas</h2>
+  <div class="products">
+    <div class="product">
+      <img src="./Imagenes/Ensalada_frutas.png" alt="Ensalada Frutas">
+      <div class="product-name">Ensalada de frutas</div>
+      <div class="price">$5.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Ensalada_verde.png" alt="Ensalada Verde">
+      <div class="product-name">Ensalada verde</div>
+      <div class="price">$4.800</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+    <div class="product">
+      <img src="./Imagenes/Ensalada_mixta.png" alt="Ensalada Mixta">
+      <div class="product-name">Ensalada mixta</div>
+      <div class="price">$6.000</div>
+      <button onclick="window.open('pago.html', '_blank')">Agregar al carrito</button>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

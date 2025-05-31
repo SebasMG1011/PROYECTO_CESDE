@@ -1,0 +1,102 @@
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!-- https://github.com/KDGONZALEZB/PROYECTO_CESDE.git */ -->
+<!-- +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ingreso de Clientes</title>
+  <link rel="stylesheet" href="./css/styles.css"> <!-- Enlace al archivo de estilos CSS -->
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+    .carousel-centered {
+                    display: flex;
+                    align-items: center;
+                    align-content: center;
+                    justify-content: center; 
+                    padding: 50px;}
+
+    /* body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    } */
+  </style>
+</head>
+
+<body>
+  <div class="header">TAVOLA</div>
+
+  <div class="carousel">
+    <div class="carousel-centered"> <!--"carousel-track"> -->
+      <img src="./Imagenes/tavola_img_1.png" alt="Imagen 1">
+      <img src="./Imagenes/tavola_img_2.png" alt="Imagen 2">
+      <img src="./Imagenes/tavola_img_3.png" alt="Imagen 3">
+      <img src="./Imagenes/tavola_img_4.png" alt="Imagen 4">
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="info">
+      <h2>Bienvenido</h2>
+      <p>Gracias por visitar nuestro sitio. 
+        Somos un negocio dedicado a ofrecer productos de calidad a nuestros clientes. 
+        Inicia sesión para acceder a tu cuenta y disfrutar de nuestros servicios.</p>
+    </div>
+    <div class="form">
+      <h2>Ingreso</h2>
+      <form id="form" class="needs-validation" novalidate action="Menu.html" method="GET">
+      <!-- <form action="#" method="post"> -->
+        <input type="text" placeholder="Nombre del Usuario" required>
+        <input type="text" placeholder="Ubicación (Piso/Área)" required>
+        <input type="tel" placeholder="Celular" required>
+        <input type="password" placeholder="Contraseña" required>
+        <div class="forgot"><a href="#">¿Olvidaste tu contraseña?</a></div>
+        <button type="submit">Ingresar</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
+
+
+<!-- <body>
+  <main class="container">
+    <h1>Regístrate</h1>
+    <form id="form" class="needs-validation" novalidate action="registrado.html" method="GET">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="nombre" placeholder="Nombre del Usuario" required>
+      <div class="error-message">Campo requerido</div>
+
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" placeholder="Correo del Usuario" required>
+      <div class="error-message">El formato de Correo no es válido</div>
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" name="password" placeholder="Ingrese Contraseña" required>
+      <div class="error-message">Campo requerido</div>
+
+      <label for="password-confirm">Confirmar Contraseña:</label>
+      <input type="password" id="password-confirm" name="password-confirm" placeholder="Repita la Contraseña" required>
+      <div class="error-message">Campo requerido</div>
+
+      <button type="submit">Registrarme</button>
+    </form>
+  </main>
+
+  <script src="/js/form-validate.js">
+  </script>
+</body>
+</html> -->
